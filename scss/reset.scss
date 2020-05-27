@@ -1,0 +1,41 @@
+ul {
+  list-style: none;
+}
+p {
+  color: $gray;
+  line-height: 22px;
+}
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.container {
+  width: $containerWidth;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.d-table {
+  display: table;
+}
+.d-table-cell {
+  display: table-cell;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+} 
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.clearfix {
+  clear: both;
+}

@@ -1,0 +1,297 @@
+ul {
+  list-style: none;
+}
+
+p {
+  color: #666;
+  line-height: 22px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.d-table {
+  display: table;
+}
+
+.d-table-cell {
+  display: table-cell;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.btn-primary, .btn-secondary {
+  display: inline-block;
+  border-radius: 0px;
+  padding: 10px 20px;
+  margin: 3px;
+  font-size: 13px;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+.btn-primary {
+  background-color: #f64728;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #8080ff;
+  color: #fff;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+header {
+  background: #3333ff;
+  color: #fff;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0;
+}
+
+header nav h1 {
+  font-size: 30px;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav li a {
+  color: #fff;
+  padding: 18px;
+}
+
+header nav li a:hover {
+  color: #f64728;
+}
+
+header .banner_sec .banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+}
+
+header .banner_sec .banner-caption {
+  padding-right: 30px;
+}
+
+header .banner_sec .banner-caption h1 {
+  font-size: 45px;
+  line-height: 1.2;
+}
+
+header .banner_sec .banner-caption p {
+  margin: 20px 0;
+  line-height: 28px;
+  color: #fff;
+}
+
+header .banner_sec .banner-img {
+  width: 80%;
+}
+
+header .banner_sec .banner-img img {
+  width: 100%;
+}
+
+.courses-sec {
+  padding: 80px 0;
+}
+
+.courses-sec p {
+  padding: 20px 20px 20px 0;
+}
+
+.courses-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 -15px;
+}
+
+.left-side {
+  max-width: 40%;
+  -webkit-box-flex: 40%;
+      -ms-flex: 40%;
+          flex: 40%;
+  padding: 0 15px;
+}
+
+.left-side h1 {
+  font-size: 35px;
+  color: #000099;
+}
+
+.right-side {
+  max-width: 60%;
+  -webkit-box-flex: 60%;
+      -ms-flex: 60%;
+          flex: 60%;
+  padding: 0 15px;
+}
+
+.right-side a {
+  margin-top: 15px;
+}
+
+.right-side img {
+  width: 100%;
+}
+
+.box {
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 40px 0px #dfe3ea;
+          box-shadow: 0px 0px 40px 0px #dfe3ea;
+  padding: 25px;
+  margin: 12px;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  width: 210px;
+}
+
+.box:hover {
+  -webkit-box-shadow: 0px 20px 70px 0px #cecece;
+          box-shadow: 0px 20px 70px 0px #cecece;
+}
+
+.box:hover a {
+  color: #000099;
+}
+
+.box:hover a span {
+  border-color: #000099;
+}
+
+.box h4 {
+  font-size: 18px;
+  color: #f64728;
+  padding-bottom: 40px;
+}
+
+.box p {
+  padding-bottom: 5px;
+  font-size: 13px;
+}
+
+.box a {
+  font-size: 13px;
+  display: inline-block;
+  color: #000;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.box a span {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 23px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+footer {
+  background: #000;
+  padding: 15px;
+  text-align: center;
+}
+
+footer p {
+  color: #faf9ff;
+  font-size: 13px;
+}
+
+.breadcrum {
+  background: #faf9ff;
+  padding: 30px 0;
+}
+
+.breadcrum h1 {
+  font-size: 25px;
+}
+
+.breadcrum li {
+  display: inline-block;
+  line-height: 28px;
+}
+
+.breadcrum li a:hover {
+  color: #f64728;
+}
+
+.inner-course {
+  padding: 30px 0;
+}
+/*# sourceMappingURL=style.css.map */

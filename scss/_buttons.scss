@@ -1,0 +1,22 @@
+%btn {
+    display: inline-block;
+    border-radius: 0px;
+    padding: 10px 20px;
+    margin: 3px;
+    font-size: 13px;
+    &:hover {
+        transform: scale(0.98);
+    }
+}
+
+.btn-primary {
+    @extend %btn;
+    background-color: $orange;
+    color: $white;
+}
+
+.btn-secondary {
+    @extend %btn;
+    background-color: lighten($blue, 25%);
+    color: $white;
+}
